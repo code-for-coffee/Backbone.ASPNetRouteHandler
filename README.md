@@ -8,11 +8,11 @@ Usage
 
 Intialization:
 
-var routeHelper = new Backbone.ASPNetRouteHelper({
+`var routeHelper = new Backbone.ASPNetRouteHelper({
   initialRoute: "",
   beforeNavigation: function() { console.log("Hey, route is being triggerd") },
   afterNavigation: function() { console.log("The party is over."); }
-});
+});`
 
 Getting Route History:
-routeHelper.getHistory(); 
+`routeHelper.getHistory();` 
